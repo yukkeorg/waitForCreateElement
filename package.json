@@ -1,0 +1,17 @@
+{
+  "name": "@yukkorg/waitForCreateElement",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "files": [
+      "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "typescript": "^3.5.3"
+  }
+}
